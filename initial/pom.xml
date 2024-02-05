@@ -46,6 +46,7 @@
 			<version>1.18.22</version> <!-- You can adjust the version if needed -->
 			<scope>provided</scope>
 		</dependency>
+    
 	</dependencies>
 
 	<build>

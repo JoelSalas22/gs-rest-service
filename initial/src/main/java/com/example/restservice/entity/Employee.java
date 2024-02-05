@@ -13,9 +13,10 @@ email
 title
  */
 @Entity
+@Data
+@AllArgsConstructor
 public class Employee {
     @Id
-    @Column(name=d")
     private int employee_id;
     private String first_name;
     private String last_name;
