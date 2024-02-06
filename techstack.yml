@@ -1,0 +1,156 @@
+repo_name: JoelSalas22/gs-rest-service
+report_id: 9554c6ccf831b0e76076ecb52d0567e5
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-06T22:28:20+00:00'
+requested_by: JoelSalas22
+provider: github
+branch: main
+detected_tools_count: 12
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/JoelSalas22/gs-rest-service
+  detection_source: Repo Metadata
+- name: Spring Framework
+  description: An application framework and inversion of control container for the
+    Java platform
+  website_url: https://spring.io/projects/spring-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source_url: https://github.com/JoelSalas22/gs-rest-service/blob/main/complete/build.gradle
+  detection_source: complete/build.gradle
+  last_updated_by: Jay Bryant
+  last_updated_on: 2023-12-11 22:33:10.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/JoelSalas22/gs-rest-service
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/JoelSalas22/gs-rest-service/blob/main/.github/workflows/continuous-integration-build.yml
+  detection_source: ".github/workflows/continuous-integration-build.yml"
+  last_updated_by: Robert McNees
+  last_updated_on: 2023-09-26 12:51:02.000000000 Z
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/JoelSalas22/gs-rest-service/blob/main/complete/build.gradle
+  detection_source: complete/build.gradle
+  last_updated_by: Greg Turnquist
+  last_updated_on: 2013-08-02 02:03:27.000000000 Z
+- name: Apache Camel
+  description: A versatile open source integration framework
+  website_url: https://camel.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
+  detection_source_url: https://github.com/JoelSalas22/gs-rest-service/blob/main/initial/src/main/resources/application.properties
+  detection_source: initial/src/main/resources/application.properties
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/JoelSalas22/gs-rest-service
+  detection_source: Repo Metadata
+- name: javax.persistence:javax.persistence-api
+  description: Java
+  version: '2.2'
+  license: EPL-1.0,AAL
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/JoelSalas22/gs-rest-service/blob/main/initial/pom.xml
+  detection_source: initial/pom.xml
+  last_updated_by: Joel Salas
+  last_updated_on: 2024-02-05 21:35:17.000000000 Z
+- name: org.hibernate:hibernate-core
+  description: Hibernate's core ORM functionality
+  license: LGPL-2.0-only,GPL-3.0-or-later
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/JoelSalas22/gs-rest-service/blob/main/initial/pom.xml
+  detection_source: initial/pom.xml
+  last_updated_by: Joel Salas
+  last_updated_on: 2024-02-05 21:35:17.000000000 Z
+- name: org.projectlombok:lombok
+  description: 'Spice up your java: Automatic Resource Management'
+  version: 1.18.22
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/JoelSalas22/gs-rest-service/blob/main/initial/pom.xml
+  detection_source: initial/pom.xml
+  last_updated_by: Joel Salas
+  last_updated_on: 2024-02-05 21:35:17.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-test
+  description: Starter for testing Spring Boot applications with libraries including
+    JUnit
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/JoelSalas22/gs-rest-service/blob/main/complete/build.gradle
+  detection_source: complete/build.gradle
+  last_updated_by: Jay Bryant
+  last_updated_on: 2023-12-11 22:33:10.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-web
+  description: Starter for building web, including RESTful, applications using Spring
+    MVC
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/JoelSalas22/gs-rest-service/blob/main/complete/build.gradle
+  detection_source: complete/build.gradle
+  last_updated_by: Jay Bryant
+  last_updated_on: 2023-12-11 22:33:10.000000000 Z
